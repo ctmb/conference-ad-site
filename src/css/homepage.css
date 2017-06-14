@@ -1,0 +1,198 @@
+.video-section .pattern-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 496px; 
+}
+
+.video-section .buttonBar{
+    display: none;
+}
+
+header {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header-description {
+    color: white;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 92%;
+}
+
+#header-title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.button-link {
+    display: inline-block;
+    height: auto;
+    margin-top: 40px;
+    padding: 0.8em 1.2em;
+    color: #EFEAE1;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: none;
+    border-radius: 5px;
+    background: #B32621;
+    box-shadow: 4px 4px rgba(0,0,0,0.1);
+}
+
+.button-link:visited {
+    text-decoration:none;
+}
+
+.button-link:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+    background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+    background-color:#bc3315;
+    text-decoration:none;
+    color:#EFEAE1;
+}
+
+.button-link:active {
+    text-decoration: none;
+    position:relative;
+    top:1px;
+}
+
+#castle-section, #wedding-section, #footer {
+    text-align: center;
+    padding: 35px;
+}
+
+#castle-section {
+    background-color: #EBEBEB;
+}
+
+#wedding-section {
+    background-color: #F8F8F8;
+}
+
+#castle, #wedding {
+    min-height: 200px;
+    position: relative;
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#castle {
+    background-image: url("../img/castle.png");
+}
+
+#wedding {
+    background-image: url("../img/dancing.png");
+}
+
+#castle-content h3, #wedding-content h3{
+    color: #B02623;
+    font-weight: 750px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Libre Franklin', 'Raleway', 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+}
+
+.top-container {
+    position: fixed;
+    height: 90%;
+    width: 100%; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 320px) {
+    #castle #wedding {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    #header-title {
+        font-size: 80px;
+    }
+
+    .button-link {
+        font-size: 20px;
+    }
+
+    #castle, #wedding {
+        height: 350px;
+        background-size: 300px;
+    }
+
+    img {
+        max-width: 300px;
+    }  
+
+    #castle-content {
+        padding-right: 50px;
+        text-align: left;
+    }
+
+     #wedding-content {
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #header-title {
+        font-size: 95px;
+    }
+
+    #castle #wedding {
+        max-width: 350px;
+    }
+
+    #castle-content, #wedding-content {
+        padding-top: 40px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}

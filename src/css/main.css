@@ -1,0 +1,262 @@
+#castle-section, #wedding-section, #footer {
+    text-align: center;
+    padding: 40px;
+}
+
+#castle-section {
+    background-color: #EBEBEB;
+}
+
+#wedding-section {
+    background-color: #F8F8F8;
+}
+
+#footer {
+    background-color: #B32621;
+}
+
+#castle, #wedding {
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#castle-content h3, #wedding-content h3{
+    color: #B32621;
+    font-weight: 750px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+header {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#header-title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.tour-title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+@media (min-width: 320px) {
+    #castle {
+        max-width: 320px;
+    }
+}
+
+img {
+    width: 250px;
+}
+
+.carousel-pic {
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    margin-top: 0;
+    text-align: center;
+    padding: 15px;
+    background-color: #EBEBEB;
+}
+
+.packheader{
+    max-width: 800px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+.info{
+    color: #1F1F1F;
+    background-color: #EBEBEB;
+    font-weight: 2em;
+
+ 
+}
+
+.info > p {
+    margin: 2em;
+}
+
+.imgMap {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+area:hover {
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+    .imgMap {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #header-title {
+        font-size: 80px;
+    }
+
+    #castle, #wedding {
+        height: 300px;
+        width: 300px;
+    }
+
+    #castle-content {
+        padding-right: 50px;
+        text-align: right;
+    }
+
+    #wedding-content {
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #header-title {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+}
+
+body {
+    font-family: 'Libre Franklin', 'Raleway', 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+}
+
+.top-container {
+    position: fixed;
+    height: 90%;
+    width: 100%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.text {
+    z-index: 2;
+    position: absolute;
+    background: rgba(200, 0, 0, 0.4);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.test {
+    height: 400px;
+    background-size: cover;
+
+}
+
+.test1 {
+    background-position: absolute;
+}
+
+.topHeader {
+    padding-top: 50px;
+    filter: brightness(0.4);
+}
+
+.maps {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .maps {
+        display: inline-block;
+    }
+    .maps .Map768{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    .maps .Map1200{display:none;}
+    .maps .Map1400{display:none;}
+}
+
+@media (min-width: 1200px) {
+    .maps .Map768{display:none;}
+    .maps .Map1200 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    .maps .Map1400{display:none;}
+}
+
+@media (min-width: 1400px) {
+    .maps .Map768{display:none;}
+    .maps .Map1200{display:none;}
+    .maps .Map1400{
+        display: flex;
+        align-items: center;
+        justify-content: center
+        }
+}
