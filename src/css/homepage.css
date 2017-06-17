@@ -3,6 +3,10 @@
     min-height: 496px; 
 }
 
+#video-area {
+    background-image: url("../img/overview1.png");
+}
+
 .video-section .buttonBar{
     display: none;
 }
