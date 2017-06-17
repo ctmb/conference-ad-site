@@ -99,11 +99,11 @@ header {
 }
 
 #castle {
-    background-image: url("../img/castle.png");
+    background-image: url("../img/overview1.png");
 }
 
 #wedding {
-    background-image: url("../img/dancing.png");
+    background-image: url("../img/overview2.png");
 }
 
 #castle-content h3, #wedding-content h3{
@@ -176,6 +176,10 @@ body, html {
 
     h3 {
         font-size: 30px;
+    }
+
+    span {
+        font: Helvetica
     }
 }
 

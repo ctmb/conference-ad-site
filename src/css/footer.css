@@ -25,8 +25,9 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Libre Franklin', cursive;
 	margin: 0;
+
 }
 
 .footer-distributed h3 span{
@@ -40,13 +41,6 @@
 	margin: 20px 0 12px;
 	padding: 0;
 }
-
-/*.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color: white;
-}*/
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
