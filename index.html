@@ -15,12 +15,19 @@
     <!--our stylesheet, will override bootstrap styling where needed-->
     <link rel="stylesheet" href="./src/css/homepage.css">
     <link rel="stylesheet" href="./src/css/footer.css">
+
+   <!--jQuery library CDN link from https://code.jquery.com/-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+    <!--Video Player Script-->
+    <script src="https://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+    <script src="./homepage.js"></script>
 </head>
 <body>
     <!--Video Section-->
     <section class="content-section video-section" id="video-area">
         <div class="pattern-overlay">
-            <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=wxdLYWnSzpI', containment:'.video-section', quality:'hd1080', autoPlay:true, mute:true, opacity:1, onReady:function(player){console.log('Entered');document.getElementById('video-area').style.backgroundColor='#000';}}"></a>
+            <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=FpjfmgPqRe0', containment:'.video-section', quality:'small', autoPlay:true, mute:true, opacity:1, onReady:function(player){document.getElementById('video-area').style.backgroundColor='#000';}}"></a>
             <header>
                 <div class="container">
                     <div class="row">
@@ -106,15 +113,9 @@
 				</div>
 			</div>
 		</footer>
-    <!--jQuery library CDN link from https://code.jquery.com/-->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     
     <!--Bootstrap JavaScript library CDN link from https://getbootstrap.com/getting-started/-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!--Video Player Script-->
-    <script src="https://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
-    <script src="./homepage.js"></script>
 
     <!--Google Maps API-->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqeJKAWNWqlxnSe_kt1o31i7qyz5eTvA&callback=initMap"></script>
