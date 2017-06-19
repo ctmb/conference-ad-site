@@ -1,6 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
+import {Link, IndexLink} from "react-router";
 import "whatwg-fetch";
 
 import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from "react-bootstrap";
@@ -22,13 +21,32 @@ export default class extends React.Component {
                 </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight>
-                            <NavItem>Speakers</NavItem>
-                            <NavItem>Agenda</NavItem>
-                            <NavItem>Venue</NavItem>
-                            <NavItem>Sponsors</NavItem>
+                            <NavItem>
+                                <IndexLink to="/" activeClassName="active">
+                                    Speakers
+                                </IndexLink>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/agenda" activeClassName="active">
+                                    Agenda
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/venue" activeClassName="active">
+                                    Venue
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/sponsors" activeClassName="active">
+                                    Sponsors
+                                </Link>                                
+                            </NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
+                <main>
+                    {this.props.children}
+                </main>
             </div>
         );
     }

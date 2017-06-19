@@ -14,7 +14,7 @@ export default class extends React.Component {
         return (
             <div>
                 {this.state}
-                Sponsors
+                <h1>Sponsors</h1>
             </div>
         );
     }

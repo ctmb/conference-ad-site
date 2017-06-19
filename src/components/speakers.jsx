@@ -14,7 +14,7 @@ export default class extends React.Component {
         return (
             <div>
                 {this.state}
-                Speakers
+                <h1>Speakers</h1>
             </div>
         );
     }
