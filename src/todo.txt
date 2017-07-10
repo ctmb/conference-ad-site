@@ -1,0 +1,52 @@
+DONE: Getting a visual cue to show the status of sponsors (diamond, ruby, etc)
+DONE: Filling in the filler text on many of the jumbotrons
+DONE: Updating the google map locations
+Finding new pictures for some of the jumbotrons
+Filling in the agenda page with events
+Finding new pictures for the overview paragraphs on the main page
+
+Homepage:  Make
+DONE: 1.       “CSA Seattle Chapter” top line, “Conference” second line
+DONE: 2.       Remove “Cloud Security Alliance”
+DONE: 3.       Move “Secure Digital Transformation @ Cloud City” up and use the font size you have for cloud security alliance.
+I think this will give you more room and hopefully removes any branding issues we have with global
+DONE: 4.        In the Join Us section  here is some text
+Join us for a one day conference with leading industry experts to discuss governance and compliance standards, security assessment and deployment strategies, critical and emerging threats, legal issues/obligations, and best practices to help CISO’s, CIO’s, CTO’s and IT Security Professionals address the new frontiers in securing the digital transformation in the Cloud.
+Conference:  3 educational tracks followed by an evening social.
+Details:
+Where:  Embassy Suites Hotel, Bellevue, WA
+When:  September 29th 2017, 8:45 – 7pm, Registration opens at 8:00am
+Cost:  $199 early bird before/on September 1st / $250 after September 1st
+Included in registration:  All Day Conference, Evening Social with Appetizers & 2 Drink Tickets, Breakfast Buffet, Breaks, and Lunch
+Credits:  8 CPE credits
+“register button”  I will provide the link to you when Ganti and I have finished.
+DONE: 5.       Bottom:  Phone for Embassy (425) 644-2500
+DONE: 6.       Bottom:  about should be “Cloud Security Alliance Seattle Chapter”
+DONE: 7.       Top left:  should link to the landing page? Or maybe our website?  Maybe should read CSA Seattle Chapter.  Should we have a home page on the menu that takes you back to the conference landing page?
+ 
+DONE: Speakers page:  Is it possible to reduce the font and picture size so more speakers are visible?
+DONE: Sponsors page:  Is it possible to do in a table format so more sponsor logos are visible in the line of vision?  Diamond and the diamond logo’s and links.  I’m not sure we will have descriptions for the sponsor products.   My concern is that if people have to scroll through a list they won’t and our sponsors may be unhappy if they are at the bottom of the list and feel they aren’t being seen.
+ 
+DONE: Venue: 
+Here is a link to their website if you want to use the pictures:  http://embassysuites3.hilton.com/en/hotels/washington/embassy-suites-by-hilton-seattle-bellevue-SEABLES/index.html
+ 
+Here is some text.
+Embassy Suites
+3225 158th Avenue SE
+Bellevue, WA
+425-644-2500
+ 
+Ample Free Parking on site.
+ 
+Hotel Reservations:
+Conference Rate:  King Suite:  $239 a night.
+Use conference code:  “CSA Seattle” or group code “R20” to receive the conference rate.
+Phone:  425-644-2500 or 1-800-EMBASSY (362-2779)
+Website:  http://embassysuites.hilton.com/en/es/groups/personalized/S/SEABLES-R20-20170928/index.jhtml?WT.mc_id=POG
+Choose your dates, click "check availability", and use group code above in group code field on the next web page.  Continue to finish the booking.
+ 
+Amenities:  free parking, indoor pool, fitness center, complimentary cooked-to-order breakfast.  Breakfast hours are 7:30am-10:30am on weekends and 6:00am-9:00am on weekdays. 
+Evening Reception is 5:30pm - 7:30pm.
+Cascades Restaurant and Bar onsite restaurant. Hours of operation are 11:30am-11:00pm.
+ 
+DONE: If you notice any reference to “summit” can you replace with “conference”?  Again this is a branding issue with global and I noticed under Join Us that I had forgotten to take it out before I sent it to you.
