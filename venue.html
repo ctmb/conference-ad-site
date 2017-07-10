@@ -34,7 +34,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">CSA Seattle</a>
+      <a class="navbar-brand" href="./">CSA Seattle</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,35 +47,48 @@
     </div>
   </div>
 </nav>
-			<!-- Jumbotron -->
-			<div class="jumbotron">
-				<div class="container marketing vcenter">
-				<div class="row featurette vcenter">
-					<h1>Conference Venue</h1>
-					<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-					</div>
-				</div>
-			</div>
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container marketing vcenter">
+      <div class="row featurette vcenter">
+        <h1>Conference Venue</h1>
+        <p class="lead">Ample Free Parking on site.<br/>
+<br/> 
+Hotel Reservations:<br/>
+Conference Rate:  King Suite:  $239 a night.<br/>
+Use conference code:  “CSA Seattle” or group code “R20” to receive the conference rate.<br/>
+Phone:  425-644-2500 or 1-800-EMBASSY (362-2779)<br/>
+<br/>
+Choose your dates, click "check availability", and use group code above in group code field on the next web page.  Continue to finish the booking.<br/>
+<br/>
+Amenities:  free parking, indoor pool, fitness center, complimentary cooked-to-order breakfast.  Breakfast hours are 7:30am-10:30am on weekends and 6:00am-9:00am on weekdays<br/>
+Evening Reception is 5:30pm - 7:30pm.<br/>
+Cascades Restaurant and Bar onsite restaurant. Hours of operation are 11:30am-11:00pm.<br/>
+
+</p>
+                            <a class="button-link" href="http://embassysuites3.hilton.com/en/hotels/washington/embassy-suites-by-hilton-seattle-bellevue-SEABLES/index.html">Learn More...</a>
+
+        </div>
+      </div>
+    </div>
 			<!-- End Jumbotron -->
  
+    <div id="vmap">
 
-
-                <div id="vmap">
-
-                </div>
-                    <script>
-                        function initMap() {
-                            var uluru = {lat: 47.581068, lng:-122.134208};
-                            var map = new google.maps.Map(document.getElementById('vmap'), {
-                            zoom: 16,
-                            center: uluru
-                            });
-                            var marker = new google.maps.Marker({
-                            position: uluru,
-                            map: map
-                            });
-                        }
-                    </script>
+    </div>
+        <script>
+            function initMap() {
+                var uluru = {lat: 47.581068, lng:-122.134208};
+                var map = new google.maps.Map(document.getElementById('vmap'), {
+                zoom: 16,
+                center: uluru
+                });
+                var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+                });
+            }
+        </script>
     
     <!--Bootstrap JavaScript library CDN link from https://getbootstrap.com/getting-started/-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

@@ -41,6 +41,17 @@
     color: white;
 }
 
+.ruby-sponsor-icon {
+    width: 42.5px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.diamond-sponsor-icon {
+    width: 64px;
+    height: 46px;
+}
+
 .jumbotron-sponsors {
     min-height: 500px;
     min-width: 100%;
@@ -63,6 +74,10 @@
     line-height: 30px;
     vertical-align: middle;
     display: block;
+}
+
+.short-jumbotron {
+    min-height: 200px;
 }
 
 h2 {
@@ -258,6 +273,10 @@ video {
 
 .maps {
     display: none;
+}
+
+.reg-btn {
+    background: #B32621;
 }
 
 @media (min-width: 768px) {
