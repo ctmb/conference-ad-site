@@ -41,6 +41,13 @@
     color: white;
 }
 
+@media (max-width: 768px) {
+    .vcenter {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
 .ruby-sponsor-icon {
     width: 42.5px;
     height: 40px;

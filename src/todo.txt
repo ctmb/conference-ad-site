@@ -1,9 +1,13 @@
-DONE: Getting a visual cue to show the status of sponsors (diamond, ruby, etc)
-DONE: Filling in the filler text on many of the jumbotrons
-DONE: Updating the google map locations
 Finding new pictures for some of the jumbotrons
 Filling in the agenda page with events
 Finding new pictures for the overview paragraphs on the main page
+Add social media links in footer
+
+
+
+DONE: Getting a visual cue to show the status of sponsors (diamond, ruby, etc)
+DONE: Filling in the filler text on many of the jumbotrons
+DONE: Updating the google map locations
 
 Homepage:  Make
 DONE: 1.       “CSA Seattle Chapter” top line, “Conference” second line
