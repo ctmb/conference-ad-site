@@ -31,7 +31,7 @@
 }
 
 .footer-distributed h3 span{
-	color: #B32621;
+	color: #19D6C2;
 }
 
 /* Footer links */
@@ -102,8 +102,6 @@
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
-
 @media (max-width: 756px) {
 
 	.footer-distributed{
@@ -126,7 +124,7 @@
 }
 
 a { 
-	color: #B32621;
+	color: #19D6C2;
 	text-decoration: none;
 }
 
@@ -135,6 +133,7 @@ a {
    height: 600px;
    align-content: center;
    background-color: grey;
+   margin: 20px;
  }
 
 #map {
@@ -142,11 +141,16 @@ a {
    height: 200px;
    align-content: center;
    left: 1em;
-   background-color: grey;
+	background-color: #292c2f;
+   background-image: url(../img/googlemap2.png);
+   background-repeat: no-repeat;
+
  }
 
  @media (min-width: 1200px) {
 	#map {
 		left: -45px;
+		background-image: url(../img/googlemap1.png);
+	    background-repeat: no-repeat;
 	}
  }
