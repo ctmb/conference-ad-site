@@ -1,4 +1,4 @@
-Filling in the agenda page with events
-Add social media links in footer
-Reduce overall size of speaker page text
 Investigate sponsor pictures embedded between media
+Consistency on homepage - text diff size and centering
+Text on speakers page
+delete this file

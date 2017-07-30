@@ -142,7 +142,7 @@ a {
    align-content: center;
    left: 1em;
 	background-color: #292c2f;
-   background-image: url(../img/googlemap2.png);
+   background-image: url(../img/googlemap2.PNG);
    background-repeat: no-repeat;
 
  }
@@ -150,7 +150,7 @@ a {
  @media (min-width: 1200px) {
 	#map {
 		left: -45px;
-		background-image: url(../img/googlemap1.png);
+		background-image: url(../img/googlemap1.PNG);
 	    background-repeat: no-repeat;
 	}
  }
