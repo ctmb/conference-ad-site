@@ -12,7 +12,7 @@
 }
 
 #footer {
-    background-color: #71D6CF;
+    background-color: #0275d8;
 }
 
 #castle, #wedding {
@@ -28,7 +28,7 @@
 }
 
 #castle-content h3, #wedding-content h3{
-    color: #71D6CF;
+    color: #0275d8;
     font-weight: 750px;
 }
 
@@ -181,7 +181,7 @@ img {
 }
 
 area:hover {
-    background-color: red;
+    background-color: #0275d8;
 }
 
 @media (max-width: 768px) {
@@ -653,15 +653,15 @@ video {
 }
 
 .track-one {
-    background-color: #5BE5D0;
+    background-color: rgb(189, 200, 253);
 }
 
 .track-two {
-    background-color: #5DBBCE;    
+    background-color: rgb(190, 244, 253);    
 }
 
 .track-three {
-    background-color: #5BA3E5;    
+    background-color: rgb(209, 198, 252);    
 }
 
 .speaker {
@@ -669,11 +669,11 @@ video {
 }
 
 .keynote {
-    background-color: #71DBA8;    
+    background-color: rgb(97, 192, 255);    
 }
 
 .timeblock {
-    background-color: #5774DB;    
+    background-color: rgb(218, 218, 218);    
 }
 
 #venue-jumbo {

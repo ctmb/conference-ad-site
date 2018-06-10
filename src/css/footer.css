@@ -25,13 +25,13 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Libre Franklin', cursive;
+	font: normal 24px 'Libre Franklin', cursive;
 	margin: 0;
 
 }
 
 .footer-distributed h3 span{
-	color: #19D6C2;
+	color: #0275d8;
 }
 
 /* Footer links */
@@ -124,7 +124,7 @@
 }
 
 a { 
-	color: #19D6C2;
+	color: #0275d8;
 	text-decoration: none;
 }
 
