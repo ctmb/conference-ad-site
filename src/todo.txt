@@ -1,4 +1,0 @@
-Investigate sponsor pictures embedded between media
-Consistency on homepage - text diff size and centering
-Text on speakers page
-delete this file
