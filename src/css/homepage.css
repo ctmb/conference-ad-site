@@ -173,7 +173,7 @@ header {
     font-weight: 400;
     text-shadow: none;
     border-radius: 5px;
-    background: #FFF;
+    background: rgb(162, 221, 255);
     box-shadow: 4px 4px rgba(0,0,0,0.1);
 }
 
@@ -191,7 +191,7 @@ header {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0275d8', endColorstr='#0275d8',GradientType=0);
     background-color:#0275d8;
     text-decoration:none;
-    color:#EFEAE1;
+    color:rgb(255, 255, 255);
 }
 
 .button-link:active {
@@ -225,14 +225,16 @@ header {
 
 #castle {
     background-image: url("../img/overview1.png");
+    border-radius: 100%;
 }
 
 #wedding {
     background-image: url("../img/overview2.png");
+    border-radius: 100%;
 }
 
 #castle-content h3, #wedding-content h3{
-    color: #0275d8;
+    color: black;
     font-weight: 750px;
 }
 
@@ -310,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 
     img {
         max-width: 300px;
+        margin-top: 100px;
     }  
 
     #castle-content {

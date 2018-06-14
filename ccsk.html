@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSA Seattle September Conference</title>
+    <link rel="icon" href="page-icon.png">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Lato|Libre+Franklin:300|Raleway">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/homepage.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+    <script src="https://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+    <script src="./homepage.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top bg-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./">CSA Seattle Chapter</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>                
+            <p class="navbar-btn">
+                    <a href="http://events.constantcontact.com/register/event?llr=bksbmtkab&oeidk=a07ef3ggoyabddd68e7" class="btn btn-default reg-btn" target="_blank">Register</a>
+            </p>
+        </li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="venue.html">Venue</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="ccsk.html">CCSK Training</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div id="venue-jumbo" class="jumbotron jumbotron-venue">
+      <div class="container marketing vcenter">
+      <div class="row featurette vcenter container">
+        <h2>Certificate in Cloud Security Knowledge (CCSK) Foundations Training</h2>
+        <p class="lead">
+            <h5>Please note that while at the same location, this is a seperate event with seperate registration from the CSA September Conference.</h5><br/>
+            <b> The course covers and includes:</b><br/>
+            •All major domains in the CSA Security Guidance for Critical Areas of Focus in Cloud Computing document, along with the ENISA whitepaper.<br/>
+            •Access to a number of exclusive self-paced study resources.<br/>
+            •One exam voucher token for the CCSK version 4 exam.<br/>
+            <br/>
+            The Certificate of Cloud Security Knowledge (CCSK) provides students a comprehensive review of cloud security fundamentals and prepares them to take the Cloud Security Alliance CCSK V4 Certification Exam. The CCSK session starts with a detailed description of Cloud Computing and business requirements (governance, risk management, compliance, and legal). The session then moves into more technical security issues such as encryption, Identity Management, assessment of Public and Private Clouds, securing corporate data in the public cloud and securing private clouds. The CCSK training is comprised of the following six modules, encompassing the Cloud Security Alliance’s 14 Domains ensuring students can successfully prepare for the exam while also enhancing their overall competencies in cloud security.<br/>
+            <br/>
+            Module 1 | Introduction and Cloud Architectures<br/>
+            Module 2 | Infrastructure Security for Cloud Computing<br/>
+            Module 3 | Managing Cloud Computing Security and Risk<br/>
+            Module 4 | Data Security for Cloud Computing<br/>
+            Module 5 | Securing Cloud Applications and Users<br/>
+            Module 6 | Cloud Security Operations<br/>
+            <br/>
+            <b>Registration Includes:</b><br/>
+            •1 Day of CCSK Training from an Authorized Cloud Security Alliance Instructor<br/>
+            •Official CCSK Foundation Student Handbook<br/>
+            •CCSK Practice Exams. Accessible online, self-paced and randomly generated.<br/>
+            •1 CCSK Exam Voucher + 1 Re-Attempt Exam Voucher<br/>
+            •Continental Breakfast, Lunch Buffet, and afternoon snacks<br/>
+            <br/>
+            <b>Cost:</b> $995.00 per person, please note that registration will be limited to the first 25 registrants.
+        </p>
+        <a href="http://events.r20.constantcontact.com/register/event?oeidk=a07efayphtvba7eb631&llr=bksbmtkab" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register Now</a>
+      </div>
+      </div>
+    </div>
+      <footer class="footer-distributed">
+          <div class="footer-left">
+            <h3>CSA<span> Seattle Chapter</span></h3>
+            <p class="footer-links">
+              <a href="https://chapters.cloudsecurityalliance.org/seattle/">Home</a>
+              ·
+              <a href="https://chapters.cloudsecurityalliance.org/seattle/contact/">Contact</a>
+            </p>
+                    <div>
+              <p><span>Embassy Suites 3225</span></p>
+                        <p><span>158th Avenue SE</span>
+                        <p><span>Bellevue, WA<span></p>
+            </div>
+            <div>
+              <p>+1 (425) 644-2500</p>
+            </div>
+            <p class="footer-company-name">CSA Seattle Chapter &copy; 2017</p>
+          </div>
+          <div class="footer-center">
+                    <div id="map"></div>
+                        <script>
+                            function initMap() {
+                                var uluru = {lat: 47.581068, lng:-122.134208};
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 14,
+                                center: uluru
+                                });
+                                var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                                });
+                            }
+                        </script>
+          </div>
+          <div class="footer-right">
+            <p class="footer-company-about">
+              <span>About Cloud Security Alliance Seattle Chapter</span>The vision of the Greater Seattle Chapter of CSA is to serve as the nexus for Cloud Security ensuring cloud computing is appropriately secure for all providers and users.				<div class="footer-icons">
+              <a href="https://www.facebook.com/Cloud-Security-Alliance-Greater-Seattle-Chapter-156099067876736/"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/groups/7033324/profile"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+      </footer>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqeJKAWNWqlxnSe_kt1o31i7qyz5eTvA&callback=initMap"></script>
+    </body>
+</html>
